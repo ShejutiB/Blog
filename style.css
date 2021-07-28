@@ -1,0 +1,190 @@
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #dbcbcb;
+}
+h1 {
+    color: royalblue;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    height: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #3009df;
+    height: 75px;
+}
+
+li {
+    float: right;
+    margin-right: 100px;
+
+}
+
+
+li a {
+    display: block;
+    color: white;
+    
+    
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(62, 196, 178);
+}
+
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 250px;
+}
+
+.second {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 05px;
+}
+
+#box {
+    height: 56px;
+    width: 56px;
+    left: 315px;
+    top: 239px;
+    border-radius: 0px;
+}
+.flex {
+    display: flex;
+}
+.flex p{
+
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.tblog {
+display: grid;
+grid-template-columns:repeat(2, 1fr);
+grid-row-gap:40px;
+grid-column-gap:100px;
+}
+.flex1 {
+    display: flex;
+}
+.flex1 p{
+
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.course{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.course1 {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-row-gap:40px;
+    grid-column-gap:100px;
+
+}
+#ws {
+    color: red;
+}
+.left {
+    margin-left:130px ;
+    float: left;
+}
+.logoleft {
+
+    margin-left:130px ;
+    float: left;
+}
+
+p {
+    font-family: 'PT Serif', serif; 
+}
+/*******************************
+Media Queries for mobile phone
+*******************************/
+@media only screen and (max-width:688px) {
+
+    .player {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 40px;
+        grid-column-gap: 250px;
+}
+
+
+    .tblog {
+        display: grid;
+        grid-template-columns:repeat(1, 1fr);
+        grid-row-gap:40px;
+        grid-column-gap:100px;
+        }
+        .course1 {
+            display: grid;
+            grid-template-columns:repeat(1, 1fr);
+            grid-row-gap:40px;
+            grid-column-gap:100px;
+        
+        }
+}
+
+/**************************
+Media Queries for TABs
+***************************/
+@media only screen and (max-width:992px) and (min-width:689px){
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 40px;
+    grid-column-gap: 250px;
+}
+
+
+.tblog {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-row-gap:40px;
+    grid-column-gap:100px;
+    }
+    .course1 {
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-row-gap:40px;
+        grid-column-gap:100px;
+    
+    }
+}
+
+
+
+
+
+
+
+        .star {
+           color: #ecca33; 
+        }
+        .star1 {
+            color: rgb(235, 23, 23);
+        }
+        .star2 {
+            color: rgb(179, 176, 172);
+        }
