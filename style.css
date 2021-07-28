@@ -3,10 +3,10 @@
 .body {
     margin: 0;
     padding: 0;
-    background-color: #dbcbcb;
+    background-color: #338f8f;
 }
 h1 {
-    color: royalblue;
+    color: #1e105d;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -21,7 +21,7 @@ ul {
     margin: 0;
     padding:0;
     overflow: hidden;
-    background-color: #3009df;
+    background-color: #1e105d;
     height: 75px;
 }
 
@@ -41,7 +41,7 @@ li a {
 }
 
 li a:hover {
-    background-color: rgb(62, 196, 178);
+    background-color: rgb(190, 124, 124);
 }
 
 
@@ -53,7 +53,7 @@ li a:hover {
 }
 
 .second {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(190, 124, 124);
     padding: 20px;
     border-radius: 10px;
     margin-top: 05px;
@@ -89,7 +89,7 @@ grid-column-gap:100px;
     margin-left: 10px;
 }
 .course{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(190, 124, 124);
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
@@ -105,13 +105,17 @@ grid-column-gap:100px;
     color: red;
 }
 .left {
-    margin-left:130px ;
+    margin-left:150px ;
+    margin-top: 20px;
     float: left;
 }
 .logoleft {
-
-    margin-left:130px ;
-    float: left;
+    
+    float: right;
+    margin-right: 600px;
+    margin-bottom:450px;
+    margin-top: -30px;
+    
 }
 
 p {
@@ -172,12 +176,6 @@ Media Queries for TABs
     
     }
 }
-
-
-
-
-
-
 
         .star {
            color: #ecca33; 
